@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #F857E6;
+  color: #183542;
+  font-family: 'Luckiest Guy', cursive;
+  position: relative; }
+
+.intro_box {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s; }
+  .intro_box.left {
+    left: -50%; }
+  .intro_box .title {
+    font-size: 10vw; }
+  .intro_box .start {
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 6vw;
+    transition: all .2s; }
+    .intro_box .start:hover {
+      background-color: #183542;
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */
